@@ -1,0 +1,35 @@
+h2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  bottom: 50px;
+  font-size: 200%;
+}
+
+button {
+  width: 300px;
+  height: 100px;
+  margin: 40px;
+  cursor: not-allowed;
+}
+
+.starships-link {
+  position: relative;
+  right: 80px;
+  bottom: 60px;
+  min-width: 310px;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 200%;
+  font-weight: 600;
+  box-shadow: 7px 6px 11px 1px rgba(0, 0, 0, 0.50);
+  transition: 0.2s all;
+  background-color: #e9a2ad;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #293845;
+}
